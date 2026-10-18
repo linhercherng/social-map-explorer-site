@@ -1,19 +1,19 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "sourceRepository": "linhercherng/social-map-explorer",
-  "sourceCommit": "6fd23bcd43134155a81480f7bad3257f20c690bc",
-  "builtAt": "2026-10-18T12:56:48.8045960Z",
+  "sourceCommit": "fcf36cec77703e3d1f5e908e6e1f7ed30a902f99",
+  "builtAt": "2026-10-18T13:45:36.5988305Z",
   "files": {
-    "favicon.svg": "f6f454344ea8795a9e75c23709beb3ba0bfc711facba596adf43638cb6ab031d",
-    "index.html": "4c744693080daa6172d40e5297773ae043dd44a1409f70e9c001a15b660208bb",
-    "manifest.webmanifest": "84dc79532cfb5a49ef05704bef14cb3810a5b2a48ea66432341506f3d7f950d4",
+    "favicon.svg": "bc9031b721d6590efa22f15263ab890a55bc00affa0edb2c4d9c0a2a07c112ff",
+    "index.html": "8461b3448219141d344f8055899925c9dc09851031e487d527efb6bbacb957e8",
+    "manifest.webmanifest": "b3203370c77e55d9975d1f572cf85e0c5676faf1393cf39fc4c40f7964bd219b",
     "question-bank-template.json": "cfe1ab02844011075692a83e83c51b27f2d0db41a63f9bbfc1ee1246a3cab974",
-    "sw.js": "824f46006d32eb8a6dbfde767d03ab9dc43315cbd94d52de8d3cc90f51a1e076",
-    "assets/index-C4Gke9FX.css": "5c8cd22e179fde4d8225a8ce122ddb99015b8a3506704d85d90b1708918b8df5",
-    "assets/index-D32RD7fr.js": "5ed792c6ae4c714dd3b849f5532f5ce6ebb78f2c5ab80f6e64589ea2e3d12454",
-    "icons/apple-touch-icon.png": "2add61a6fc0c0d841b793effb356c7bf36f2b56c4b02ef5ec6fe22ce0ad98455",
-    "icons/icon-192.png": "3ea5ea6045d21af91de7f1f8a35179b2da4095bbfb94f3308059c00705844381",
-    "icons/icon-512.png": "4bbf1e1720c30efacdeec5e7c6d8f688fc0b8778fff9d9f0cfe897f15208bbbb",
-    "icons/maskable-512.png": "4bbf1e1720c30efacdeec5e7c6d8f688fc0b8778fff9d9f0cfe897f15208bbbb"
+    "sw.js": "5e9ac6a43497c47fe05e957122c5636ded571f00837f14a4bad4e560ff68a076",
+    "assets/index-CYtbLcL2.css": "d371b509c7fa28461a06792aa3c7dea2264dfad90092f667a2b675d00b7023a1",
+    "assets/index-npLBGz8G.js": "bde8745d5a2c08dadbe136228299b95ecbf9dd950d684a0b6809a75bb4d7c8e8",
+    "icons/apple-touch-icon.png": "bb0b6f1e323dede77bf8fcb15ca8f482563dd30065a2d4b20f9ad6d8e1658d18",
+    "icons/icon-192.png": "9fd125f7febcc782a780fe1a4f6a1f3630cb4cdfa40bef5fc2f5b0e3175179d1",
+    "icons/icon-512.png": "cb3354fb53e13528d42c31f1d4a4725cfbd6cf81b4156b620e21fadd586fd5f4",
+    "icons/maskable-512.png": "cb3354fb53e13528d42c31f1d4a4725cfbd6cf81b4156b620e21fadd586fd5f4"
   }
 }

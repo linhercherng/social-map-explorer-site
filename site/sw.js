@@ -1,6 +1,6 @@
 /* Build-time substitutions are generated from the complete static release. */
-const PRECACHE = ["assets/index-C4Gke9FX.css","assets/index-D32RD7fr.js","favicon.svg","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","index.html","manifest.webmanifest","question-bank-template.json"];
-const VERSION = "dc2e9314c596943f92ed";
+const PRECACHE = ["assets/index-CYtbLcL2.css","assets/index-npLBGz8G.js","favicon.svg","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","index.html","manifest.webmanifest","question-bank-template.json"];
+const VERSION = "611ab52030f1e92af6d8";
 const SCOPE = self.registration.scope;
 const PREFIX = `home-atlas:${encodeURIComponent(SCOPE)}:`;
 const CACHE = PREFIX + VERSION;
