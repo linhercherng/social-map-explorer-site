@@ -1,0 +1,45 @@
+name: Deploy home atlas
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check release file hashes
+        shell: python
+        run: |
+          import hashlib, json
+          from pathlib import Path
+          root=Path('site').resolve()
+          release=json.loads((root/'release.json').read_text())
+          assert release['sourceRepository']=='linhercherng/social-map-explorer'
+          assert len(release['sourceCommit'])==40
+          for name, expected in release['files'].items():
+              path=(root/name).resolve()
+              assert path.is_relative_to(root) and path.is_file()
+              assert hashlib.sha256(path.read_bytes()).hexdigest()==expected, name
+          assert {'index.html','favicon.svg','question-bank-template.json'} <= release['files'].keys()
+          actual={p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()}
+          assert actual == set(release['files']) | {'release.json'}, 'Unlisted deployment files'
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment

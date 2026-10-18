@@ -1,0 +1,18 @@
+{
+  "format": "home-atlas-banks",
+  "version": 1,
+  "banks": [{
+    "id": "my-bank",
+    "name": "我的社會題庫",
+    "description": "請將範例替換成自己的題目，answer從0開始計算。",
+    "questions": [{
+      "id": "my-question-1",
+      "prompt": "地圖中用來說明符號意義的要素是什麼？",
+      "options": ["圖例", "比例尺", "方向標"],
+      "answer": 0,
+      "explanation": "圖例說明地圖符號代表的實際景物。",
+      "source": "自行填寫教材名稱與頁碼",
+      "review": "draft"
+    }]
+  }]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "sourceRepository": "linhercherng/social-map-explorer",
+  "sourceCommit": "0247279a9af3ffd2efaa953e84442ca7122ceae5",
+  "builtAt": "2026-10-18T11:42:51.7922431Z",
+  "files": {
+    "favicon.svg": "f6f454344ea8795a9e75c23709beb3ba0bfc711facba596adf43638cb6ab031d",
+    "index.html": "0db264ec1b4e21b6498beaf42bc1938dbb3a00be29226a826a389f7ade7c7ef7",
+    "question-bank-template.json": "cfe1ab02844011075692a83e83c51b27f2d0db41a63f9bbfc1ee1246a3cab974",
+    "assets/index-Cl6JTbZn.js": "f70b6dd03d0b33bc91ceaeb6991111513a790f9fbbcb291d83fc3acaa1a00818",
+    "assets/index-DvNYOMzC.css": "9f8e77d682cbee0d4a43d1f80deebce3993b4971a36bdb9690ee82996605747d"
+  }
+}
