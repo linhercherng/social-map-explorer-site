@@ -1,13 +1,19 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "sourceRepository": "linhercherng/social-map-explorer",
-  "sourceCommit": "0247279a9af3ffd2efaa953e84442ca7122ceae5",
-  "builtAt": "2026-10-18T11:42:51.7922431Z",
+  "sourceCommit": "6fd23bcd43134155a81480f7bad3257f20c690bc",
+  "builtAt": "2026-10-18T12:56:48.8045960Z",
   "files": {
     "favicon.svg": "f6f454344ea8795a9e75c23709beb3ba0bfc711facba596adf43638cb6ab031d",
-    "index.html": "0db264ec1b4e21b6498beaf42bc1938dbb3a00be29226a826a389f7ade7c7ef7",
+    "index.html": "4c744693080daa6172d40e5297773ae043dd44a1409f70e9c001a15b660208bb",
+    "manifest.webmanifest": "84dc79532cfb5a49ef05704bef14cb3810a5b2a48ea66432341506f3d7f950d4",
     "question-bank-template.json": "cfe1ab02844011075692a83e83c51b27f2d0db41a63f9bbfc1ee1246a3cab974",
-    "assets/index-Cl6JTbZn.js": "f70b6dd03d0b33bc91ceaeb6991111513a790f9fbbcb291d83fc3acaa1a00818",
-    "assets/index-DvNYOMzC.css": "9f8e77d682cbee0d4a43d1f80deebce3993b4971a36bdb9690ee82996605747d"
+    "sw.js": "824f46006d32eb8a6dbfde767d03ab9dc43315cbd94d52de8d3cc90f51a1e076",
+    "assets/index-C4Gke9FX.css": "5c8cd22e179fde4d8225a8ce122ddb99015b8a3506704d85d90b1708918b8df5",
+    "assets/index-D32RD7fr.js": "5ed792c6ae4c714dd3b849f5532f5ce6ebb78f2c5ab80f6e64589ea2e3d12454",
+    "icons/apple-touch-icon.png": "2add61a6fc0c0d841b793effb356c7bf36f2b56c4b02ef5ec6fe22ce0ad98455",
+    "icons/icon-192.png": "3ea5ea6045d21af91de7f1f8a35179b2da4095bbfb94f3308059c00705844381",
+    "icons/icon-512.png": "4bbf1e1720c30efacdeec5e7c6d8f688fc0b8778fff9d9f0cfe897f15208bbbb",
+    "icons/maskable-512.png": "4bbf1e1720c30efacdeec5e7c6d8f688fc0b8778fff9d9f0cfe897f15208bbbb"
   }
 }
